@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 function track_tiktok() {
     echo "Masukkan username TikTok:"
     read username
