@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 untuk memeriksa apakah nomor telepon valid
 check_number() {
     local number=$1
