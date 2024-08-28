@@ -3,6 +3,7 @@ import os
 import asyncio
 from datetime import datetime
 
+clear
 api_id = '29798494'
 api_hash = '53273c1de3e68a9ecdb90de2dcf46f6c'
 
