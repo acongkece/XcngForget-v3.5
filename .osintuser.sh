@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 read -p "Masukkan username: " username
 
 sites=(
