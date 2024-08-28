@@ -1,3 +1,4 @@
+clear
 import requests
 
 def get_ip_info(ip_address):
