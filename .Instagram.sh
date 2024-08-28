@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 # Fungsi untuk melacak informasi profil Instagram
 function track_instagram() {
     echo "Masukkan username Instagram:"
