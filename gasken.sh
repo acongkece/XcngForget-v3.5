@@ -7,12 +7,14 @@ read -p "masukan password:" pass
 
 if [ $pass = $password ]
 then cd$home
-     cd LolipopXtoolsv2
+     cd XcngForget-v3.5
      bash .menu.sh
 else "password salah"
 fi
 
 if [ $user = $username ]
 then cd$home
-     cd XcngForgetv3.5
+     cd XcngForget-v3.5
      bash .menu.sh
+else "salah boskuh"
+fi
