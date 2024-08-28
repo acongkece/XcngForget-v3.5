@@ -1,3 +1,4 @@
+clear
 function parse_nik() {
     local nik=$1
     if [[ $nik =~ ^[0-9]{16}$ ]]; then
