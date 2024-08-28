@@ -24,30 +24,30 @@ read -p "Masukkan pilihan Anda: " choice
 
 case $choice in
   1)
-    bash osintuser.sh
+    bash .osintuser.sh
     ;;
   2)
-    bash trnik.sh
+    bash .trnik.sh
     ;;
   3)
-    bash tiktokscrape.sh
+    bash .tiktokscrape.sh
     ;;
   4)
-    bash Instagram.sh
+    bash .Instagram.sh
     ;;
   5)
-    python Ubot.py
+    python .Ubot.py
     ;;
   6)
-    bash nik.sh
+    bash .nik.sh
     ;;
   7)
-    python2 ddos.py
+    python2 .ddos.py
     ;;
   8)
-    python2 cctv.py
+    python2 .cctv.py
+    ;;
   0)
-    echo "Keluar..."
     exit 0
     ;;
   *)
