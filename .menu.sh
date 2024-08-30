@@ -16,7 +16,7 @@ echo "5. userbottele "
 echo "6. create deface html"
 echo "7. ddos attack web"
 echo "8. cctv ip hack"
-echo "9. scan Ip website"
+echo "9. parsing nik"
 echo "10. soon..."
 echo "0. Keluar"
 
@@ -46,6 +46,9 @@ case $choice in
     ;;
   8)
     python2 .cctv.py
+    ;;
+  9)
+    nikparse.sh
     ;;
   0)
     exit 0
