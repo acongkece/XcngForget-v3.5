@@ -1,6 +1,7 @@
 #!/bin/bash
 
 clear
+figlet TRACKNO
 untuk memeriksa apakah nomor telepon valid
 check_number() {
     local number=$1
@@ -96,3 +97,7 @@ read -p "input nomor(62): " phone_number
 check_number $phone_number
 
 get_info $phone_number
+read -p "back to menu press enter :" h
+cd $home
+cd XcngForget-3.5
+bash .menu.sh
