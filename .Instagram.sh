@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+figlet INSTATRACK
 # Fungsi untuk melacak informasi profil Instagram
 function track_instagram() {
     echo "Masukkan username Instagram:"
@@ -22,3 +23,7 @@ function track_instagram() {
 
 # Panggil fungsi track_instagram langsung
 track_instagram
+read -p "back to menu press enter :" k
+cd $home
+cd XcngForget-v3.5
+bash .menu.sh
